@@ -5,7 +5,7 @@ This project implements the extraction of figures, tables, and references from a
 ## Data Preparation and Processing 
 For data preparation figures, tables, and references were annotated in 267 pages of scientific research papers (mainly in the fields of electrical engineering, physics, computer science) using LabelImg. 
 
-![Labeling process][Figures/data_prep.png]
+`[Labeling process][Figures/data_prep.png]`
 
 The data_processing.py file is responsible for dividing the dataset to 80% for training and 20% for validation. 
 The images in the training set were augmented 5 times each, leading to a total of 1065 training images. The images in the validation set were left unagumented so that the validation set remains truly unseen by the model. 
