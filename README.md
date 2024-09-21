@@ -14,15 +14,16 @@ The ....
 In order to test the final.pt model with other inputs, you can download the 'test_model.py' file and run it with adjustments to the path to the model, directories of the testing and output files, and the selection of device. 
 
 Change the directory to the final.pt model in:
-'''python
+```python
 'model = torch.hub.load('ultralytics/yolov5', 'custom', path='path/to/installed/extraction.pt/model')' 
+```
 
 The output directory can also be changed in: 
-'''python
+```python
 test_dir = 'directory/to/test/images'
 output_dir = 'directory/to/save/annotated/pages'
 objects_dir = 'directory/to/save/extracted/images/as/separate/files'
-
+```
 
 ## Technologies Used
 
