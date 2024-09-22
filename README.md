@@ -22,7 +22,7 @@ Other parameters involved:
 
 The metrics for the final.pt model was as follows:  
 Loss:  
->mAP_0.5:  
+&nbsp;mAP_0.5:  
 >mAP_0.5:0.95:  
 >mAP_recall:  
 >mAP_precision:
