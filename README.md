@@ -13,21 +13,19 @@ The images in the training set were augmented 5 times each, leading to a total o
 ## Model Design 
 The final.pt model was obtained by training the YOLOv5 object detection model (specifically the YOLOv5s model) with my own data and making alterations to the parameters. The hyperparameters for the final model was set to the default settings in the hyp.scratch-low.yaml in the YOLOv5 github, with an increased IoU of 0.4.
 
-Other parameters involved: 
-    Image resolution: 832 x 832
-    Batch: 16
-    Epochs: 80
+Other parameters involved:  
+    Image resolution: 832 x 832  
+    Batch: 16  
+    Epochs: 80  
 
 ## Results 
 
-The metrics for the final.pt model was as follows:
-    Loss:
-    mAP_0.5:
-    mAP_0.5:0.95: 
-    mAP_recall:
-    mAP_precision: 
-
-
+The metrics for the final.pt model was as follows:  
+Loss:  
+mAP_0.5:  
+mAP_0.5:0.95:  
+mAP_recall:  
+mAP_precision:
 
 ## Testing Method  
 In order to test the final.pt model with other inputs, you can download and run the 'test_model.py' file with adjustments to the path to the model, path to the testing and output files, and selection of device. 
