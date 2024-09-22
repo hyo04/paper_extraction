@@ -1,6 +1,7 @@
 # Figure, table, and reference extraction 
 This project implements the extraction of figures, tables, and references from a scientific research paper. 
 
+![Introduction](Figures/process.jpg)
 
 ## Data Preparation and Processing 
 For data preparation, different objects were labelled as figures, tables, and references in 267 pages of scientific research papers (mainly in electrical engineering, physics, and computer science) using LabelImg. 
@@ -22,7 +23,7 @@ Other parameters involved:
 
 The metrics for the final.pt model was as follows:  
 Loss:  
-&nbsp;mAP_0.5:  
+>mAP_0.5:  
 >mAP_0.5:0.95:  
 >mAP_recall:  
 >mAP_precision:
