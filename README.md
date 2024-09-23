@@ -1,9 +1,9 @@
 # Figure, table, and reference extraction 
-This project implements the extraction of figures, tables, and references from a scientific research paper. 
+This project explores the extraction of figures, tables, and references from scientific research papers by using the YOLOv5 object detection training model. 
 
 
 <p align="center">
-  <img src="Figures/process.jpgg" width="600">
+  <img src="Figures/process.jpg" width="600">
 </p>
 
 
