@@ -1,7 +1,11 @@
 # Figure, table, and reference extraction 
 This project implements the extraction of figures, tables, and references from a scientific research paper. 
 
-![Introduction](Figures/process.jpg)
+
+<p align="center">
+  <img src="Figures/process.jpgg" width="600">
+</p>
+
 
 ## Data Preparation and Processing 
 For data preparation, figures, tables, and references were labelled accordingly in 267 pages of scientific research papers (mainly in electrical engineering, physics, and computer science) using LabelImg. 
