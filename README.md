@@ -15,7 +15,7 @@ For data preparation, figures, tables, and references were labelled accordingly 
 </p>
 
 
-The data_processing.py file divides 80% of the data for training and 20% for validation. 
+The `data_processing.py` file divides 80% of the data for training and 20% for validation. 
 The images in the training set were augmented 5 times each, leading to a total of 1065 training images. The images in the validation set were left unaugmented so that the validation set remains truly unseen by the model. 
 
 ## Model Design 
@@ -31,11 +31,12 @@ The `final_model` directory contains images of the training process, parameters 
 
 ### Metrics 
 The specific metrics for the final.pt model was as follows:  
->Loss: 0.28
->mAP_0.5: 0.953
->mAP_0.5:0.95: 0.85
->mAP_recall: 0.91
+>Loss: 0.28  
+>mAP_0.5: 0.953  
+>mAP_0.5:0.95: 0.85  
+>mAP_recall: 0.91  
 >mAP_precision: 0.92
+
  
 ### Evaluation
 Overall, figure and table detection were successful in most research papers, but there were a noticeable amount of false positive for references, especially for pages filled with texts only. 
@@ -55,7 +56,7 @@ In order to test the final.pt model with other inputs, you can download and run 
 
 Change the directory to the final.pt model in:
 ```python
-'model = torch.hub.load('ultralytics/yolov5', 'custom', path='path/to/installed/extraction.pt/model')' 
+'model = torch.hub.load('ultralytics/yolov5', 'custom', path='path/to/installed/best.pt/model')' 
 ```
 
 The output directory can also be changed in: 
