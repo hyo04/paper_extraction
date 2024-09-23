@@ -36,7 +36,7 @@ The confusion matrix:
 # Evaluation
 Overall, figure and table detection were successful in most research papers, but there were a noticeable amount of false positive for references, especially for pages filled with texts only. 
 
-![Example of false positive for references](Figures/false_positive_ex.jpg)
+![Example of false positive for references](Figures/false_positive_ex.jpg|width=300)
 
 In order to decrease the number of false positives, increasing the confidence level from the default value of 0.5 to a higher value of 0.7 was considered. However, some extracted tables were often detected with low confidence score, so it was concluded that extracting false positives is better false negatives in this specific case. 
 
